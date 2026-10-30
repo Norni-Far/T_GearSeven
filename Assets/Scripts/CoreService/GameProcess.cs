@@ -84,6 +84,7 @@ namespace CoreService
 
             _items.Clear();
             _soundService.StopAll();
+            _soundService.PlayTap();
             StartLevel();
         }
 

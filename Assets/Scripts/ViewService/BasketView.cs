@@ -12,8 +12,25 @@ namespace ViewService
 
         [Space]
         [SerializeField] private ParticleSystem _closeParticles;
-        [SerializeField] private float _punchScale = 0.3f;
-        [SerializeField] private float _punchDuration = 0.4f;
+        [SerializeField] private float _inflateScale = 0.25f;
+        [SerializeField] private float _inflateDuration = 0.12f;
+        [SerializeField] private float _deflateDuration = 0.4f;
+        [SerializeField] private float _shakeAngle = 12f;
+
+        [Space]
+        [SerializeField] private float _popScale = 0.15f;
+        [SerializeField] private float _popDuration = 0.15f;
+        [SerializeField] private float _hideDuration = 0.25f;
+
+        private Vector3 _baseScale;
+        private Quaternion _baseRotation;
+        private Sequence _sequence;
+
+        private void Awake()
+        {
+            _baseScale = _root.localScale;
+            _baseRotation = _root.localRotation;
+        }
 
         public Transform GetSlot(int index)
         {
@@ -27,20 +44,29 @@ namespace ViewService
 
         public void PlayClose()
         {
-            _root.DOKill(true);
-            _root.DOPunchScale(Vector3.one * _punchScale, _punchDuration, 8, 0.6f);
+            ResetView();
 
-            if (_closeParticles != null) _closeParticles.Play();
+            _sequence = DOTween.Sequence()
+                .Append(_root.DOScale(_baseScale * (1f + _inflateScale), _inflateDuration).SetEase(Ease.OutQuad))
+                .Append(_root.DOScale(_baseScale, _deflateDuration).SetEase(Ease.OutBack))
+                .Join(_root.DOShakeRotation(_deflateDuration, new Vector3(0f, 0f, _shakeAngle), 14, 90f, true, ShakeRandomnessMode.Harmonic))
+                .Append(_root.DOScale(_baseScale * (1f + _popScale), _popDuration).SetEase(Ease.OutQuad))
+                .AppendCallback(() => { if (_closeParticles != null) _closeParticles.Play(); })
+                .Append(_root.DOScale(Vector3.zero, _hideDuration).SetEase(Ease.InBack))
+                .AppendCallback(() => _root.gameObject.SetActive(false));
         }
 
         public void ResetView()
         {
-            _root.DOKill(true);
+            _sequence?.Kill();
+            _root.gameObject.SetActive(true);
+            _root.localScale = _baseScale;
+            _root.localRotation = _baseRotation;
         }
 
         private void OnDestroy()
         {
-            if (_root != null) _root.DOKill();
+            _sequence?.Kill();
         }
     }
 }

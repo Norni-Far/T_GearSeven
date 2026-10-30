@@ -50,7 +50,14 @@ MonoBehaviour:
   <ItemData>k__BackingField: {fileID: 0}
   <ShelfSlot>k__BackingField: 0
   _spriteRenderer: {fileID: 7300393708805642030}
-  _moveDuration: 0.3
+  _moveDuration: 0.6
+  _jumpPower: 1
+  _tapSquash: 0.25
+  _tapSquashDuration: 0.2
+  _landSquash: {x: 0.2, y: 0.25}
+  _landSquashDuration: 0.25
+  _flightTilt: 20
+  _flightSortingBoost: 10
 --- !u!61 &837870007725868373
 BoxCollider2D:
   m_ObjectHideFlags: 0
