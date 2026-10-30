@@ -1512,7 +1512,7 @@ MonoBehaviour:
   _shakeAngle: 12
   _popScale: 0.15
   _popDuration: 0.15
-  _hideDuration: 0.25
+  _hideDuration: 0.5
 --- !u!114 &1076900688
 MonoBehaviour:
   m_ObjectHideFlags: 0
