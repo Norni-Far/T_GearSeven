@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Item 2
   m_EditorClassIdentifier: Assembly-CSharp::SOItem
   <ItemID>k__BackingField: 2
-  <itemIcon>k__BackingField: {fileID: 3806649091589688100, guid: 11f234c70dcafa94eba1b26e979507b4, type: 3}
+  <ItemIcon>k__BackingField: {fileID: 3806649091589688100, guid: 11f234c70dcafa94eba1b26e979507b4, type: 3}

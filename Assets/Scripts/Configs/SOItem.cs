@@ -1,16 +1,11 @@
-using NaughtyAttributes;
 using UnityEngine;
 
-
-[CreateAssetMenu(fileName = "Item", menuName = "Configs/Item", order = 0)]
-[System.Serializable]
-public class SOItem : ScriptableObject
+namespace Configs
 {
-    [field: SerializeField][field: ReadOnly] public int ItemID { get; private set; }
-    [field: SerializeField] public Sprite itemIcon { get; private set; }
-
-    public void SetItemID(int id)
+    [CreateAssetMenu(fileName = "Item", menuName = "Configs/Item", order = 0)]
+    public class SOItem : ScriptableObject
     {
-        ItemID = id;
+        [field: SerializeField][field: Min(0)] public int ItemID { get; private set; } = 0;
+        [field: SerializeField] public Sprite ItemIcon { get; private set; }
     }
 }

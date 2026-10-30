@@ -1,0 +1,704 @@
+fileFormatVersion: 2
+guid: 8c75f7353a0dec34495969c4a88105ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8746914962330107315
+    second: colorful-confetti-illustration-party-png_0
+  - first:
+      213: -245834912888845139
+    second: colorful-confetti-illustration-party-png_1
+  - first:
+      213: 2543064741547682172
+    second: colorful-confetti-illustration-party-png_2
+  - first:
+      213: 5346659823867912232
+    second: colorful-confetti-illustration-party-png_3
+  - first:
+      213: -8863728670480731723
+    second: colorful-confetti-illustration-party-png_4
+  - first:
+      213: 7107191201137879584
+    second: colorful-confetti-illustration-party-png_5
+  - first:
+      213: -9202376294851869548
+    second: colorful-confetti-illustration-party-png_6
+  - first:
+      213: -8346779286342603415
+    second: colorful-confetti-illustration-party-png_7
+  - first:
+      213: -342563639965133868
+    second: colorful-confetti-illustration-party-png_8
+  - first:
+      213: -4768011438716197787
+    second: colorful-confetti-illustration-party-png_9
+  - first:
+      213: 7698203482732714655
+    second: colorful-confetti-illustration-party-png_10
+  - first:
+      213: 2252773894032610994
+    second: colorful-confetti-illustration-party-png_11
+  - first:
+      213: 2261306453509041365
+    second: colorful-confetti-illustration-party-png_12
+  - first:
+      213: 3685424439829301392
+    second: colorful-confetti-illustration-party-png_13
+  - first:
+      213: 8912967973395489155
+    second: colorful-confetti-illustration-party-png_14
+  - first:
+      213: 7049805962540719534
+    second: colorful-confetti-illustration-party-png_15
+  - first:
+      213: 4923391165284534879
+    second: colorful-confetti-illustration-party-png_16
+  - first:
+      213: -1647253551693605324
+    second: colorful-confetti-illustration-party-png_17
+  - first:
+      213: 2961555897019787853
+    second: colorful-confetti-illustration-party-png_18
+  - first:
+      213: -5431429383325179905
+    second: colorful-confetti-illustration-party-png_19
+  - first:
+      213: 8623195934605434655
+    second: colorful-confetti-illustration-party-png_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 281
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42c3c55f27bc9680800000000000000
+      internalID: -8746914962330107315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 265
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac0fdff27e969cf0800000000000000
+      internalID: -245834912888845139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 274
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7925c0a8e7ca4320800000000000000
+      internalID: 2543064741547682172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_3
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 226
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820ef7038c6233a40800000000000000
+      internalID: 5346659823867912232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 239
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1fc8a7cb5bdf480800000000000000
+      internalID: -8863728670480731723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_5
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 261
+        width: 40
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02aea9eedb0d1a260800000000000000
+      internalID: 7107191201137879584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 233
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49401ef14879a4080800000000000000
+      internalID: -9202376294851869548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_7
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 220
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96de5f256784a2c80800000000000000
+      internalID: -8346779286342603415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 156
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3d9e63f28fe3bf0800000000000000
+      internalID: -342563639965133868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 184
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5646256cbde94ddb0800000000000000
+      internalID: -4768011438716197787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_10
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 171
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a55fcd74385da60800000000000000
+      internalID: 7698203482732714655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 156
+        width: 46
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b65611cbe5734f10800000000000000
+      internalID: 2252773894032610994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_12
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 126
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc64b11d36c16f10800000000000000
+      internalID: 2261306453509041365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 98
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09881967002452330800000000000000
+      internalID: 3685424439829301392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_14
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 137
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381ebac162931bb70800000000000000
+      internalID: 8912967973395489155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_15
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 113
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead9ba4eb21f5d160800000000000000
+      internalID: 7049805962540719534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_16
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 105
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ac419fd26635440800000000000000
+      internalID: 4923391165284534879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_17
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 39
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4365d4c4f97c329e0800000000000000
+      internalID: -1647253551693605324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_18
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 58
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ae358b56f891920800000000000000
+      internalID: 2961555897019787853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 58
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff9848b0cfaf94b0800000000000000
+      internalID: -5431429383325179905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: colorful-confetti-illustration-party-png_20
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 55
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fdfbec30fbba770800000000000000
+      internalID: 8623195934605434655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      colorful-confetti-illustration-party-png_0: -8746914962330107315
+      colorful-confetti-illustration-party-png_1: -245834912888845139
+      colorful-confetti-illustration-party-png_10: 7698203482732714655
+      colorful-confetti-illustration-party-png_11: 2252773894032610994
+      colorful-confetti-illustration-party-png_12: 2261306453509041365
+      colorful-confetti-illustration-party-png_13: 3685424439829301392
+      colorful-confetti-illustration-party-png_14: 8912967973395489155
+      colorful-confetti-illustration-party-png_15: 7049805962540719534
+      colorful-confetti-illustration-party-png_16: 4923391165284534879
+      colorful-confetti-illustration-party-png_17: -1647253551693605324
+      colorful-confetti-illustration-party-png_18: 2961555897019787853
+      colorful-confetti-illustration-party-png_19: -5431429383325179905
+      colorful-confetti-illustration-party-png_2: 2543064741547682172
+      colorful-confetti-illustration-party-png_20: 8623195934605434655
+      colorful-confetti-illustration-party-png_3: 5346659823867912232
+      colorful-confetti-illustration-party-png_4: -8863728670480731723
+      colorful-confetti-illustration-party-png_5: 7107191201137879584
+      colorful-confetti-illustration-party-png_6: -9202376294851869548
+      colorful-confetti-illustration-party-png_7: -8346779286342603415
+      colorful-confetti-illustration-party-png_8: -342563639965133868
+      colorful-confetti-illustration-party-png_9: -4768011438716197787
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
